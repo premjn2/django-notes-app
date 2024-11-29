@@ -1,9 +1,8 @@
 version: "3.3"
 
 services:
-
   web:
-    build: notes-app:latest
-     context:  .
+    build:
+      context: .  # Corrected indentation for context
     ports:
       - "8000:8000"
